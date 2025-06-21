@@ -27,31 +27,38 @@
       background: white;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: left;
     }
     h2 {
+      text-align: center;
       margin-bottom: 10px;
     }
-    .folder {
+    details {
+      max-width: 700px;
       margin: 10px auto;
-      text-align: left;
-      max-width: 600px;
-      padding: 10px;
-      border: 1px solid #ccc;
+      background: #fafafa;
+      border: 1px solid #ddd;
       border-radius: 8px;
+      padding: 10px;
+    }
+    summary {
+      font-size: 1.1em;
+      cursor: pointer;
+      font-weight: bold;
     }
     .subfolder {
       margin-left: 20px;
-      padding-left: 10px;
-      border-left: 2px solid #ddd;
+      padding: 5px 0;
     }
     .download-btn {
       display: inline-block;
-      margin-top: 5px;
-      padding: 5px 10px;
+      margin-left: 10px;
+      padding: 3px 8px;
       background: #3498db;
       color: white;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 4px;
+      font-size: 0.9em;
     }
   </style>
 </head>
@@ -60,126 +67,126 @@
     <div class="title">Drugopedia</div>
   </header>  <section id="syllabus">
     <h2>📘 Syllabus</h2>
-    <div class="folder">1st Semester <br><a href="#" class="download-btn">Download Syllabus</a></div>
-    <div class="folder">2nd Semester <br><a href="#" class="download-btn">Download Syllabus</a></div>
-    <div class="folder">3rd Semester <br><a href="#" class="download-btn">Download Syllabus</a></div>
-    <div class="folder">4th Semester <br><a href="#" class="download-btn">Download Syllabus</a></div>
-    <div class="folder">5th Semester <br><a href="#" class="download-btn">Download Syllabus</a></div>
-    <div class="folder">6th Semester <br><a href="#" class="download-btn">Download Syllabus</a></div>
-    <div class="folder">7th Semester <br><a href="#" class="download-btn">Download Syllabus</a></div>
-    <div class="folder">8th Semester <br><a href="#" class="download-btn">Download Syllabus</a></div>
+    <details><summary>1st Semester</summary><div class="subfolder"><a href="#" class="download-btn">Download</a></div></details>
+    <details><summary>2nd Semester</summary><div class="subfolder"><a href="#" class="download-btn">Download</a></div></details>
+    <details><summary>3rd Semester</summary><div class="subfolder"><a href="#" class="download-btn">Download</a></div></details>
+    <details><summary>4th Semester</summary><div class="subfolder"><a href="#" class="download-btn">Download</a></div></details>
+    <details><summary>5th Semester</summary><div class="subfolder"><a href="#" class="download-btn">Download</a></div></details>
+    <details><summary>6th Semester</summary><div class="subfolder"><a href="#" class="download-btn">Download</a></div></details>
+    <details><summary>7th Semester</summary><div class="subfolder"><a href="#" class="download-btn">Download</a></div></details>
+    <details><summary>8th Semester</summary><div class="subfolder"><a href="#" class="download-btn">Download</a></div></details>
   </section>  <section id="books">
     <h2>📚 Books</h2>
-    <div class="folder">Pharmacology <br><a href="#" class="download-btn">Download Book</a></div>
-    <div class="folder">Human Anatomy & Physiology <br><a href="#" class="download-btn">Download Book</a></div>
-    <div class="folder">Medicinal Chemistry <br><a href="#" class="download-btn">Download Book</a></div>
-    <div class="folder">Organic Chemistry <br><a href="#" class="download-btn">Download Book</a></div>
+    <details><summary>Pharmacology</summary><div class="subfolder"><a href="#" class="download-btn">Download Book</a></div></details>
+    <details><summary>Human Anatomy & Physiology</summary><div class="subfolder"><a href="#" class="download-btn">Download Book</a></div></details>
+    <details><summary>Medicinal Chemistry</summary><div class="subfolder"><a href="#" class="download-btn">Download Book</a></div></details>
+    <details><summary>Organic Chemistry</summary><div class="subfolder"><a href="#" class="download-btn">Download Book</a></div></details>
   </section>  <section id="notes">
     <h2>📝 Notes</h2>
-    <div class="folder">1st Semester
+    <details><summary>1st Semester</summary>
       <div class="subfolder">Human Anatomy and Physiology I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Analysis I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutics I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Inorganic Chemistry <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Communication Skills <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">2nd Semester
+    </details>
+    <details><summary>2nd Semester</summary>
       <div class="subfolder">Human Anatomy and Physiology II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Organic Chemistry I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Biochemistry <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pathophysiology <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">3rd Semester
+    </details>
+    <details><summary>3rd Semester</summary>
       <div class="subfolder">Pharmaceutical Organic Chemistry II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Physical Pharmaceutics I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Microbiology <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Engineering <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">4th Semester
+    </details>
+    <details><summary>4th Semester</summary>
       <div class="subfolder">Pharmaceutical Organic Chemistry III <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Medicinal Chemistry I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Physical Pharmaceutics II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmacology I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmacognosy and Phytochemistry I <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">5th Semester
+    </details>
+    <details><summary>5th Semester</summary>
       <div class="subfolder">Medicinal Chemistry II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Industrial Pharmacy I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmacology II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmacognosy and Phytochemistry II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Jurisprudence <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">6th Semester
+    </details>
+    <details><summary>6th Semester</summary>
       <div class="subfolder">Medicinal Chemistry III <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmacology III <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Herbal Drug Technology <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Biopharmaceutics and Pharmacokinetics <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Biotechnology <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Quality Assurance <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">7th Semester
+    </details>
+    <details><summary>7th Semester</summary>
       <div class="subfolder">Instrumental Methods of Analysis <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Industrial Pharmacy II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmacy Practice <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Novel Drug Delivery System <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">8th Semester
+    </details>
+    <details><summary>8th Semester</summary>
       <div class="subfolder">Biostatistics and Research Methodology <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Social and Preventive Pharmacy <a href="#" class="download-btn">Download</a></div>
-    </div>
+    </details>
   </section>  <section id="papers">
     <h2>📄 Question Papers</h2>
-    <div class="folder">1st Semester
+    <details><summary>1st Semester</summary>
       <div class="subfolder">Human Anatomy and Physiology I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Analysis I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutics I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Inorganic Chemistry <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Communication Skills <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">2nd Semester
+    </details>
+    <details><summary>2nd Semester</summary>
       <div class="subfolder">Human Anatomy and Physiology II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Organic Chemistry I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Biochemistry <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pathophysiology <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">3rd Semester
+    </details>
+    <details><summary>3rd Semester</summary>
       <div class="subfolder">Pharmaceutical Organic Chemistry II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Physical Pharmaceutics I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Microbiology <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Engineering <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">4th Semester
+    </details>
+    <details><summary>4th Semester</summary>
       <div class="subfolder">Pharmaceutical Organic Chemistry III <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Medicinal Chemistry I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Physical Pharmaceutics II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmacology I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmacognosy and Phytochemistry I <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">5th Semester
+    </details>
+    <details><summary>5th Semester</summary>
       <div class="subfolder">Medicinal Chemistry II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Industrial Pharmacy I <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmacology II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmacognosy and Phytochemistry II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Jurisprudence <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">6th Semester
+    </details>
+    <details><summary>6th Semester</summary>
       <div class="subfolder">Medicinal Chemistry III <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmacology III <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Herbal Drug Technology <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Biopharmaceutics and Pharmacokinetics <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmaceutical Biotechnology <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Quality Assurance <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">7th Semester
+    </details>
+    <details><summary>7th Semester</summary>
       <div class="subfolder">Instrumental Methods of Analysis <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Industrial Pharmacy II <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Pharmacy Practice <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Novel Drug Delivery System <a href="#" class="download-btn">Download</a></div>
-    </div>
-    <div class="folder">8th Semester
+    </details>
+    <details><summary>8th Semester</summary>
       <div class="subfolder">Biostatistics and Research Methodology <a href="#" class="download-btn">Download</a></div>
       <div class="subfolder">Social and Preventive Pharmacy <a href="#" class="download-btn">Download</a></div>
-    </div>
+    </details>
   </section>
 </body>
 </html>
